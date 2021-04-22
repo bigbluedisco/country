@@ -4,6 +4,20 @@ import (
 	"testing"
 )
 
+func TestByNumeric_Found(t *testing.T) {
+	res, ok := ByNumeric(250)
+	if !ok || res.Name != "France" {
+		t.Fatal(res, ok)
+	}
+}
+
+func TestByNumeric_NotFound(t *testing.T) {
+	res, ok := ByNumeric(0)
+	if ok || res.Name != "" {
+		t.Fatal(res, ok)
+	}
+}
+
 func TestByAlpha2_Found(t *testing.T) {
 	res, ok := ByAlpha2("FR")
 	if !ok || res.Name != "France" {
