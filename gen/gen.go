@@ -28,7 +28,6 @@ var countryTemplate = template.Must(template.New("").Parse(`
 		},`))
 
 func main() {
-
 	bt, err := ioutil.ReadFile("./countries.json")
 	if err != nil {
 		log.Fatal(err)
