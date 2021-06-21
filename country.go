@@ -1,13 +1,12 @@
 package country
 
 type Info struct {
-	Name                string
-	ISO3166_1_numeric   int
-	ISO3166_2           string
-	ISO3166_3           string
-	DefaultCurrency     string
-	DefaultLanguage     string
-	EuropeanUnionMember bool
+	Name              string
+	ISO3166_1_numeric int
+	ISO3166_2         string
+	ISO3166_3         string
+	DefaultCurrency   string
+	DefaultLanguage   string
 }
 
 var byISO1Numeric map[int]Info
@@ -16,6 +15,7 @@ var byISO2 map[string]Info
 
 var byISO3 map[string]Info
 
+// List of countries members of the European Union (EU).
 var euMembers = map[string]struct{}{
 	"AT": {}, "BE": {}, "BG": {}, "CY": {},
 	"CZ": {}, "DE": {}, "DK": {}, "EE": {},
@@ -2050,6 +2050,7 @@ func ByNumeric(num int) (Info, bool) {
 	return code, code.ISO3166_1_numeric != 0
 }
 
+// IsEuropean returns true if the given ISO2 country code is members of the European Union (EU).
 func IsEuropean(a2 string) bool {
 	_, ok := euMembers[a2]
 	return ok
