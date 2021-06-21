@@ -9,13 +9,12 @@ import (
 )
 
 type Info struct {
-	Name                string `json:"name"`
-	ISO3166_1_numeric   int    `json:"iso_3166_1_numeric"`
-	ISO3166_2           string `json:"iso_3166_2"`
-	ISO3166_3           string `json:"iso_3166_3"`
-	DefaultCurrency     string `json:"default_currency"`
-	DefaultLanguage     string `json:"default_language"`
-	EuropeanUnionMember bool   `json:"european_union_member,omitempty"`
+	Name              string `json:"name"`
+	ISO3166_1_numeric int    `json:"iso_3166_1_numeric"`
+	ISO3166_2         string `json:"iso_3166_2"`
+	ISO3166_3         string `json:"iso_3166_3"`
+	DefaultCurrency   string `json:"default_currency"`
+	DefaultLanguage   string `json:"default_language"`
 }
 
 var countryTemplate = template.Must(template.New("").Parse(`
@@ -26,7 +25,6 @@ var countryTemplate = template.Must(template.New("").Parse(`
 			ISO3166_3:         "{{ .ISO3166_3 }}",
 			DefaultCurrency:   "{{ .DefaultCurrency }}",
 			DefaultLanguage:   "{{ .DefaultLanguage }}",
-			EuropeanUnionMember: {{ .EuropeanUnionMember }},
 		},`))
 
 func main() {
