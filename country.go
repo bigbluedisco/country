@@ -15,12 +15,34 @@ var byISO2 map[string]Info
 
 var byISO3 map[string]Info
 
+// List of countries members of the European Union (EU).
+var euMembers = map[string]struct{}{
+	// ISO2
+	"AT": {}, "BE": {}, "BG": {}, "CY": {},
+	"CZ": {}, "DE": {}, "DK": {}, "EE": {},
+	"ES": {}, "FI": {}, "FR": {}, "GR": {},
+	"HR": {}, "HU": {}, "IE": {}, "IT": {},
+	"LT": {}, "LU": {}, "LV": {}, "MT": {},
+	"NL": {}, "PL": {}, "PT": {}, "RO": {},
+	"SE": {}, "SI": {}, "SK": {},
+
+	// ISO3
+	"AUT": {}, "BEL": {}, "BGR": {}, "CYM": {},
+	"CZE": {}, "DEU": {}, "DNK": {}, "EST": {},
+	"ESP": {}, "FIN": {}, "FRA": {}, "GRC": {},
+	"HRV": {}, "HUN": {}, "IRL": {}, "ITA": {},
+	"LTU": {}, "LUX": {}, "LVA": {}, "MLT": {},
+	"NLD": {}, "POL": {}, "PRT": {}, "ROU": {},
+	"SWE": {}, "SVN": {}, "SVK": {},
+}
+
 func init() {
 	byISO1Numeric = make(map[int]Info)
 
 	byISO3 = make(map[string]Info)
 
 	byISO2 = map[string]Info{
+
 		"AF": {
 			Name:              "Afghanistan",
 			ISO3166_1_numeric: 4,
@@ -2036,6 +2058,12 @@ func ByAlpha3(a3 string) (Info, bool) {
 func ByNumeric(num int) (Info, bool) {
 	code := byISO1Numeric[num]
 	return code, code.ISO3166_1_numeric != 0
+}
+
+// IsEuropeanUnionMember returns true if the given ISO2 or ISO3 country code is member of the European Union (EU).
+func IsEuropeanUnionMember(countryCode string) bool {
+	_, ok := euMembers[countryCode]
+	return ok
 }
 
 func All() []Info {
