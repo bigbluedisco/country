@@ -2062,7 +2062,7 @@ func ByNumeric(num int) (Info, bool) {
 
 // IsEuropean returns true if the given ISO2 or ISO3 country code is members of the European Union (EU).
 func IsEuropean(countryCode string) bool {
-	_, ok := euMembers[a2]
+	_, ok := euMembers[countryCode]
 	return ok
 }
 

@@ -75,7 +75,7 @@ func TestIsEuropean(t *testing.T) {
 		"Switzerland": {
 			countryCode: "CH",
 			expected:    false,
-		}
+		},
 		"Italy": {
 			countryCode: "ITA",
 			expected:    true,
