@@ -59,7 +59,7 @@ func TestAll(t *testing.T) {
 	}
 }
 
-func TestIsEuropean(t *testing.T) {
+func TestIsEuropeanUnionMember(t *testing.T) {
 	tests := map[string]struct {
 		countryCode string
 		expected    bool
@@ -85,7 +85,7 @@ func TestIsEuropean(t *testing.T) {
 	for name, test := range tests {
 		test := test
 		t.Run(name, func(t *testing.T) {
-			assert.Equal(t, test.expected, IsEuropean(test.countryCode))
+			assert.Equal(t, test.expected, IsEuropeanUnionMember(test.countryCode))
 		})
 	}
 }
