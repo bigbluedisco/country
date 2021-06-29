@@ -2,6 +2,8 @@ package country
 
 import (
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 func TestByNumeric_Found(t *testing.T) {
@@ -54,5 +56,36 @@ func TestAll(t *testing.T) {
 
 	if all[0].Name == all[1].Name {
 		t.Fatal("duplicates in all slice")
+	}
+}
+
+func TestIsEuropean(t *testing.T) {
+	tests := map[string]struct {
+		countryCode string
+		expected    bool
+	}{
+		"Slovakia": {
+			countryCode: "SK",
+			expected:    true,
+		},
+		"Slovenia": {
+			countryCode: "SVN",
+			expected:    true,
+		},
+		"Switzerland": {
+			countryCode: "CH",
+			expected:    false,
+		}
+		"Italy": {
+			countryCode: "ITA",
+			expected:    true,
+		},
+	}
+
+	for name, test := range tests {
+		test := test
+		t.Run(name, func(t *testing.T) {
+			assert.Equal(t, test.expected, IsEuropean(test.countryCode))
+		})
 	}
 }

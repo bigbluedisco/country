@@ -17,6 +17,7 @@ var byISO3 map[string]Info
 
 // List of countries members of the European Union (EU).
 var euMembers = map[string]struct{}{
+	// ISO2
 	"AT": {}, "BE": {}, "BG": {}, "CY": {},
 	"CZ": {}, "DE": {}, "DK": {}, "EE": {},
 	"ES": {}, "FI": {}, "FR": {}, "GR": {},
@@ -24,6 +25,15 @@ var euMembers = map[string]struct{}{
 	"LT": {}, "LU": {}, "LV": {}, "MT": {},
 	"NL": {}, "PL": {}, "PT": {}, "RO": {},
 	"SE": {}, "SI": {}, "SK": {},
+
+	// ISO3
+	"AUT": {}, "BEL": {}, "BGR": {}, "CYM": {},
+	"CZE": {}, "DEU": {}, "DNK": {}, "EST": {},
+	"ESP": {}, "FIN": {}, "FRA": {}, "GRC": {},
+	"HRV": {}, "HUN": {}, "IRL": {}, "ITA": {},
+	"LTU": {}, "LUX": {}, "LVA": {}, "MLT": {},
+	"NLD": {}, "POL": {}, "PRT": {}, "ROU": {},
+	"SWE": {}, "SVN": {}, "SVK": {},
 }
 
 func init() {
@@ -2050,8 +2060,8 @@ func ByNumeric(num int) (Info, bool) {
 	return code, code.ISO3166_1_numeric != 0
 }
 
-// IsEuropean returns true if the given ISO2 country code is members of the European Union (EU).
-func IsEuropean(a2 string) bool {
+// IsEuropean returns true if the given ISO2 or ISO3 country code is members of the European Union (EU).
+func IsEuropean(countryCode string) bool {
 	_, ok := euMembers[a2]
 	return ok
 }
