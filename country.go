@@ -59,6 +59,13 @@ func init() {
 			DefaultCurrency:   "ALL",
 			DefaultLanguage:   "sq",
 		},
+		"AN": {
+			Name:            "Netherlands Antilles",
+			ISO3166_2:       "AN",
+			ISO3166_3:       "ANT",
+			DefaultCurrency: "NA",
+			DefaultLanguage: "en",
+		},
 		"DZ": {
 			Name:              "Algeria",
 			ISO3166_1_numeric: 12,
@@ -2002,6 +2009,13 @@ func init() {
 			ISO3166_3:         "ESH",
 			DefaultCurrency:   "MAD",
 			DefaultLanguage:   "es",
+		},
+		"XK": {
+			Name:            "Kosovo",
+			ISO3166_2:       "XK",
+			ISO3166_3:       "XKX",
+			DefaultCurrency: "EUR",
+			DefaultLanguage: "sq",
 		},
 		"YE": {
 			Name:              "Yemen",
