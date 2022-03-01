@@ -257,6 +257,7 @@ var languagesByCountry = map[string]([]language.Tag){
 }
 
 // Languages for a country.
+// ISO 3166-1 alpha-2 code required.
 func Languages(country string) []language.Tag {
 	return languagesByCountry[strings.ToUpper(country)]
 }
