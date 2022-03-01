@@ -52,6 +52,7 @@ func init() {
 			DefaultCurrency:   "EUR",
 			DefaultLanguage:   "ps",
 			Languages: []string{
+				"ps",
 				"fa",
 			},
 		},
@@ -84,7 +85,7 @@ func init() {
 			ISO3166_2:         "AS",
 			ISO3166_3:         "ASM",
 			DefaultCurrency:   "USD",
-			DefaultLanguage:   "",
+			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
 			},
@@ -108,6 +109,7 @@ func init() {
 			DefaultCurrency:   "AOA",
 			DefaultLanguage:   "kg",
 			Languages: []string{
+				"kg",
 				"pt",
 			},
 		},
@@ -117,7 +119,7 @@ func init() {
 			ISO3166_2:         "AI",
 			ISO3166_3:         "AIA",
 			DefaultCurrency:   "XCD",
-			DefaultLanguage:   "",
+			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
 			},
@@ -128,7 +130,7 @@ func init() {
 			ISO3166_2:         "AQ",
 			ISO3166_3:         "ATA",
 			DefaultCurrency:   "USD",
-			DefaultLanguage:   "",
+			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
 			},
@@ -263,6 +265,7 @@ func init() {
 			DefaultCurrency:   "BYN",
 			DefaultLanguage:   "be",
 			Languages: []string{
+				"be",
 				"ru",
 			},
 		},
@@ -308,7 +311,7 @@ func init() {
 			ISO3166_2:         "BM",
 			ISO3166_3:         "BMU",
 			DefaultCurrency:   "BMD",
-			DefaultLanguage:   "",
+			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
 			},
@@ -319,8 +322,10 @@ func init() {
 			ISO3166_2:         "BT",
 			ISO3166_3:         "BTN",
 			DefaultCurrency:   "INR",
-			DefaultLanguage:   "dz",
-			Languages:         []string{},
+			DefaultLanguage:   "ay",
+			Languages: []string{
+				"ay",
+			},
 		},
 		"BO": {
 			Name:              "Bolivia",
@@ -330,6 +335,7 @@ func init() {
 			DefaultCurrency:   "BOB",
 			DefaultLanguage:   "ay",
 			Languages: []string{
+				"ay",
 				"es",
 			},
 		},
@@ -339,7 +345,7 @@ func init() {
 			ISO3166_2:         "BQ",
 			ISO3166_3:         "BES",
 			DefaultCurrency:   "USD",
-			DefaultLanguage:   "",
+			DefaultLanguage:   "en",
 			Languages: []string{
 				"nl",
 				"en",
@@ -374,7 +380,7 @@ func init() {
 			ISO3166_2:         "BV",
 			ISO3166_3:         "BVT",
 			DefaultCurrency:   "NOK",
-			DefaultLanguage:   "",
+			DefaultLanguage:   "no",
 			Languages: []string{
 				"no",
 			},
@@ -397,7 +403,7 @@ func init() {
 			ISO3166_2:         "IO",
 			ISO3166_3:         "IOT",
 			DefaultCurrency:   "USD",
-			DefaultLanguage:   "",
+			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
 			},
@@ -408,7 +414,7 @@ func init() {
 			ISO3166_2:         "VG",
 			ISO3166_3:         "VGB",
 			DefaultCurrency:   "USD",
-			DefaultLanguage:   "",
+			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
 			},
@@ -510,7 +516,7 @@ func init() {
 			ISO3166_2:         "KY",
 			ISO3166_3:         "CYM",
 			DefaultCurrency:   "KYD",
-			DefaultLanguage:   "",
+			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
 			},
@@ -534,6 +540,7 @@ func init() {
 			DefaultCurrency:   "XAF",
 			DefaultLanguage:   "ar",
 			Languages: []string{
+				"ar",
 				"fr",
 			},
 		},
@@ -565,7 +572,7 @@ func init() {
 			ISO3166_2:         "CX",
 			ISO3166_3:         "CXR",
 			DefaultCurrency:   "AUD",
-			DefaultLanguage:   "",
+			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
 			},
@@ -576,7 +583,7 @@ func init() {
 			ISO3166_2:         "CC",
 			ISO3166_3:         "CCK",
 			DefaultCurrency:   "AUD",
-			DefaultLanguage:   "",
+			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
 			},
@@ -621,7 +628,7 @@ func init() {
 			ISO3166_2:         "CK",
 			ISO3166_3:         "COK",
 			DefaultCurrency:   "NZD",
-			DefaultLanguage:   "",
+			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
 			},
@@ -868,7 +875,7 @@ func init() {
 			ISO3166_2:         "FK",
 			ISO3166_3:         "FLK",
 			DefaultCurrency:   "FKP",
-			DefaultLanguage:   "",
+			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
 			},
@@ -946,7 +953,7 @@ func init() {
 			ISO3166_2:         "TF",
 			ISO3166_3:         "ATF",
 			DefaultCurrency:   "EUR",
-			DefaultLanguage:   "",
+			DefaultLanguage:   "fr",
 			Languages: []string{
 				"fr",
 			},
@@ -1003,6 +1010,7 @@ func init() {
 			DefaultCurrency:   "GHS",
 			DefaultLanguage:   "ak",
 			Languages: []string{
+				"ak",
 				"en",
 			},
 		},
@@ -1012,7 +1020,7 @@ func init() {
 			ISO3166_2:         "GI",
 			ISO3166_3:         "GIB",
 			DefaultCurrency:   "GIP",
-			DefaultLanguage:   "",
+			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
 			},
@@ -1034,7 +1042,7 @@ func init() {
 			ISO3166_2:         "GL",
 			ISO3166_3:         "GRL",
 			DefaultCurrency:   "DKK",
-			DefaultLanguage:   "",
+			DefaultLanguage:   "da",
 			Languages: []string{
 				"da",
 			},
@@ -1067,7 +1075,7 @@ func init() {
 			ISO3166_2:         "GU",
 			ISO3166_3:         "GUM",
 			DefaultCurrency:   "USD",
-			DefaultLanguage:   "",
+			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
 			},
@@ -1089,7 +1097,7 @@ func init() {
 			ISO3166_2:         "GG",
 			ISO3166_3:         "GGY",
 			DefaultCurrency:   "GBP",
-			DefaultLanguage:   "",
+			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
 			},
@@ -1144,7 +1152,7 @@ func init() {
 			ISO3166_2:         "HM",
 			ISO3166_3:         "HMD",
 			DefaultCurrency:   "AUD",
-			DefaultLanguage:   "",
+			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
 			},
@@ -1213,6 +1221,7 @@ func init() {
 			DefaultCurrency:   "INR",
 			DefaultLanguage:   "bn",
 			Languages: []string{
+				"bn",
 				"en",
 			},
 		},
@@ -1266,7 +1275,7 @@ func init() {
 			ISO3166_2:         "IM",
 			ISO3166_3:         "IMN",
 			DefaultCurrency:   "GBP",
-			DefaultLanguage:   "",
+			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
 			},
@@ -1324,6 +1333,7 @@ func init() {
 			DefaultCurrency:   "GBP",
 			DefaultLanguage:   "fr",
 			Languages: []string{
+				"fr",
 				"en",
 			},
 		},
@@ -1414,6 +1424,7 @@ func init() {
 			DefaultCurrency:   "EUR",
 			DefaultLanguage:   "lv",
 			Languages: []string{
+				"lv",
 				"lt",
 			},
 		},
@@ -1526,6 +1537,7 @@ func init() {
 			DefaultCurrency:   "MWK",
 			DefaultLanguage:   "ny",
 			Languages: []string{
+				"ny",
 				"en",
 			},
 		},
@@ -1537,6 +1549,7 @@ func init() {
 			DefaultCurrency:   "MYR",
 			DefaultLanguage:   "en",
 			Languages: []string{
+				"en",
 				"ms",
 			},
 		},
@@ -1547,7 +1560,9 @@ func init() {
 			ISO3166_3:         "MDV",
 			DefaultCurrency:   "MVR",
 			DefaultLanguage:   "dv",
-			Languages:         []string{},
+			Languages: []string{
+				"dv",
+			},
 		},
 		"ML": {
 			Name:              "Mali",
@@ -1557,6 +1572,7 @@ func init() {
 			DefaultCurrency:   "XOF",
 			DefaultLanguage:   "bm",
 			Languages: []string{
+				"bm",
 				"fr",
 			},
 		},
@@ -1678,7 +1694,7 @@ func init() {
 			ISO3166_2:         "ME",
 			ISO3166_3:         "MNE",
 			DefaultCurrency:   "EUR",
-			DefaultLanguage:   "",
+			DefaultLanguage:   "sr",
 			Languages: []string{
 				"sr",
 			},
@@ -1689,7 +1705,7 @@ func init() {
 			ISO3166_2:         "MS",
 			ISO3166_3:         "MSR",
 			DefaultCurrency:   "XCD",
-			DefaultLanguage:   "",
+			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
 			},
@@ -1833,7 +1849,7 @@ func init() {
 			ISO3166_2:         "NU",
 			ISO3166_3:         "NIU",
 			DefaultCurrency:   "NZD",
-			DefaultLanguage:   "",
+			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
 			},
@@ -1844,7 +1860,7 @@ func init() {
 			ISO3166_2:         "NF",
 			ISO3166_3:         "NFK",
 			DefaultCurrency:   "AUD",
-			DefaultLanguage:   "",
+			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
 			},
@@ -1855,7 +1871,7 @@ func init() {
 			ISO3166_2:         "MP",
 			ISO3166_3:         "MNP",
 			DefaultCurrency:   "USD",
-			DefaultLanguage:   "",
+			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
 			},
@@ -1935,6 +1951,7 @@ func init() {
 			DefaultCurrency:   "PYG",
 			DefaultLanguage:   "gn",
 			Languages: []string{
+				"gn",
 				"es",
 			},
 		},
@@ -1946,6 +1963,7 @@ func init() {
 			DefaultCurrency:   "PEN",
 			DefaultLanguage:   "ay",
 			Languages: []string{
+				"ay",
 				"es",
 			},
 		},
@@ -1966,7 +1984,7 @@ func init() {
 			ISO3166_2:         "PN",
 			ISO3166_3:         "PCN",
 			DefaultCurrency:   "NZD",
-			DefaultLanguage:   "",
+			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
 			},
@@ -2102,7 +2120,7 @@ func init() {
 			ISO3166_2:         "SH",
 			ISO3166_3:         "SHN",
 			DefaultCurrency:   "SHP",
-			DefaultLanguage:   "",
+			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
 			},
@@ -2135,7 +2153,7 @@ func init() {
 			ISO3166_2:         "MF",
 			ISO3166_3:         "MAF",
 			DefaultCurrency:   "EUR",
-			DefaultLanguage:   "",
+			DefaultLanguage:   "fr",
 			Languages: []string{
 				"fr",
 			},
@@ -2259,6 +2277,7 @@ func init() {
 			DefaultCurrency:   "SGD",
 			DefaultLanguage:   "zh",
 			Languages: []string{
+				"zh",
 				"en",
 			},
 		},
@@ -2280,8 +2299,9 @@ func init() {
 			ISO3166_2:         "SK",
 			ISO3166_3:         "SVK",
 			DefaultCurrency:   "EUR",
-			DefaultLanguage:   "cs",
+			DefaultLanguage:   "sk",
 			Languages: []string{
+				"cs",
 				"sk",
 			},
 		},
@@ -2291,8 +2311,9 @@ func init() {
 			ISO3166_2:         "SI",
 			ISO3166_3:         "SVN",
 			DefaultCurrency:   "EUR",
-			DefaultLanguage:   "it",
+			DefaultLanguage:   "sl",
 			Languages: []string{
+				"it",
 				"sl",
 			},
 		},
@@ -2326,6 +2347,7 @@ func init() {
 			DefaultCurrency:   "ZAR",
 			DefaultLanguage:   "af",
 			Languages: []string{
+				"af",
 				"en",
 			},
 		},
@@ -2335,7 +2357,7 @@ func init() {
 			ISO3166_2:         "GS",
 			ISO3166_3:         "SGS",
 			DefaultCurrency:   "GBP",
-			DefaultLanguage:   "",
+			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
 			},
@@ -2382,7 +2404,7 @@ func init() {
 			ISO3166_2:         "PS",
 			ISO3166_3:         "PSE",
 			DefaultCurrency:   "JOD",
-			DefaultLanguage:   "",
+			DefaultLanguage:   "ar",
 			Languages: []string{
 				"ar",
 			},
@@ -2416,7 +2438,7 @@ func init() {
 			ISO3166_2:         "SJ",
 			ISO3166_3:         "SJM",
 			DefaultCurrency:   "NOK",
-			DefaultLanguage:   "",
+			DefaultLanguage:   "no",
 			Languages: []string{
 				"no",
 			},
@@ -2531,7 +2553,7 @@ func init() {
 			ISO3166_2:         "TK",
 			ISO3166_3:         "TKL",
 			DefaultCurrency:   "NZD",
-			DefaultLanguage:   "",
+			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
 			},
@@ -2589,6 +2611,7 @@ func init() {
 			DefaultCurrency:   "EUR",
 			DefaultLanguage:   "tk",
 			Languages: []string{
+				"tk",
 				"ru",
 			},
 		},
@@ -2598,7 +2621,7 @@ func init() {
 			ISO3166_2:         "TC",
 			ISO3166_3:         "TCA",
 			DefaultCurrency:   "USD",
-			DefaultLanguage:   "",
+			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
 			},
@@ -2679,7 +2702,7 @@ func init() {
 			ISO3166_2:         "UM",
 			ISO3166_3:         "UMI",
 			DefaultCurrency:   "USD",
-			DefaultLanguage:   "",
+			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
 			},
@@ -2702,7 +2725,7 @@ func init() {
 			ISO3166_2:         "VI",
 			ISO3166_3:         "VIR",
 			DefaultCurrency:   "USD",
-			DefaultLanguage:   "",
+			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
 			},
@@ -2737,6 +2760,8 @@ func init() {
 			DefaultCurrency:   "VUV",
 			DefaultLanguage:   "bi",
 			Languages: []string{
+				"bi",
+				"fr",
 				"en",
 			},
 		},
@@ -2781,6 +2806,7 @@ func init() {
 			DefaultCurrency:   "MAD",
 			DefaultLanguage:   "es",
 			Languages: []string{
+				"es",
 				"ar",
 			},
 		},
