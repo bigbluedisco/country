@@ -52,8 +52,8 @@ func init() {
 			DefaultCurrency:   "EUR",
 			DefaultLanguage:   "ps",
 			Languages: []string{
-				"ps",
 				"fa",
+				"ps",
 			},
 		},
 		"AL": {
@@ -76,7 +76,6 @@ func init() {
 			DefaultLanguage:   "ar",
 			Languages: []string{
 				"ar",
-				"fr",
 			},
 		},
 		"AS": {
@@ -110,6 +109,7 @@ func init() {
 			DefaultLanguage:   "kg",
 			Languages: []string{
 				"kg",
+				"kj",
 				"pt",
 			},
 		},
@@ -232,7 +232,6 @@ func init() {
 			DefaultLanguage:   "ar",
 			Languages: []string{
 				"ar",
-				"en",
 			},
 		},
 		"BD": {
@@ -277,9 +276,9 @@ func init() {
 			DefaultCurrency:   "EUR",
 			DefaultLanguage:   "nl",
 			Languages: []string{
+				"de",
 				"fr",
 				"nl",
-				"de",
 			},
 		},
 		"BZ": {
@@ -291,7 +290,6 @@ func init() {
 			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
-				"es",
 			},
 		},
 		"BJ": {
@@ -302,7 +300,9 @@ func init() {
 			DefaultCurrency:   "XOF",
 			DefaultLanguage:   "fr",
 			Languages: []string{
+				"ff",
 				"fr",
+				"yo",
 			},
 		},
 		"BM": {
@@ -322,9 +322,9 @@ func init() {
 			ISO3166_2:         "BT",
 			ISO3166_3:         "BTN",
 			DefaultCurrency:   "INR",
-			DefaultLanguage:   "ay",
+			DefaultLanguage:   "dz",
 			Languages: []string{
-				"ay",
+				"dz",
 			},
 		},
 		"BO": {
@@ -337,6 +337,8 @@ func init() {
 			Languages: []string{
 				"ay",
 				"es",
+				"gn",
+				"qu",
 			},
 		},
 		"BQ": {
@@ -345,7 +347,7 @@ func init() {
 			ISO3166_2:         "BQ",
 			ISO3166_3:         "BES",
 			DefaultCurrency:   "USD",
-			DefaultLanguage:   "en",
+			DefaultLanguage:   "nl",
 			Languages: []string{
 				"nl",
 				"en",
@@ -359,8 +361,9 @@ func init() {
 			DefaultCurrency:   "BAM",
 			DefaultLanguage:   "bs",
 			Languages: []string{
-				"sr",
+				"bs",
 				"hr",
+				"sr",
 			},
 		},
 		"BW": {
@@ -372,6 +375,7 @@ func init() {
 			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
+				"tn",
 			},
 		},
 		"BV": {
@@ -394,7 +398,6 @@ func init() {
 			DefaultLanguage:   "pt",
 			Languages: []string{
 				"pt",
-				"pt-BR",
 			},
 		},
 		"IO": {
@@ -427,7 +430,6 @@ func init() {
 			DefaultCurrency:   "BND",
 			DefaultLanguage:   "ms",
 			Languages: []string{
-				"en",
 				"ms",
 			},
 		},
@@ -450,6 +452,7 @@ func init() {
 			DefaultCurrency:   "XOF",
 			DefaultLanguage:   "fr",
 			Languages: []string{
+				"ff",
 				"fr",
 			},
 		},
@@ -461,7 +464,8 @@ func init() {
 			DefaultCurrency:   "EUR",
 			DefaultLanguage:   "fr",
 			Languages: []string{
-				"en",
+				"fr",
+				"rn",
 			},
 		},
 		"CV": {
@@ -495,6 +499,7 @@ func init() {
 			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
+				"fr",
 			},
 		},
 		"CA": {
@@ -507,7 +512,6 @@ func init() {
 			Languages: []string{
 				"en",
 				"fr",
-				"fr-CA",
 			},
 		},
 		"KY": {
@@ -530,6 +534,7 @@ func init() {
 			DefaultLanguage:   "fr",
 			Languages: []string{
 				"fr",
+				"sg",
 			},
 		},
 		"TD": {
@@ -620,6 +625,8 @@ func init() {
 			DefaultLanguage:   "fr",
 			Languages: []string{
 				"fr",
+				"kg",
+				"ln",
 			},
 		},
 		"CK": {
@@ -653,6 +660,7 @@ func init() {
 			DefaultLanguage:   "hr",
 			Languages: []string{
 				"hr",
+				"it",
 			},
 		},
 		"CU": {
@@ -687,6 +695,7 @@ func init() {
 			DefaultLanguage:   "el",
 			Languages: []string{
 				"el",
+				"tr",
 			},
 		},
 		"CZ": {
@@ -698,6 +707,7 @@ func init() {
 			DefaultLanguage:   "cs",
 			Languages: []string{
 				"cs",
+				"sk",
 			},
 		},
 		"CI": {
@@ -731,6 +741,10 @@ func init() {
 			DefaultLanguage:   "fr",
 			Languages: []string{
 				"fr",
+				"kg",
+				"ln",
+				"lu",
+				"sw",
 			},
 		},
 		"DK": {
@@ -752,8 +766,10 @@ func init() {
 			DefaultCurrency:   "DJF",
 			DefaultLanguage:   "aa",
 			Languages: []string{
+				"aa",
 				"ar",
 				"fr",
+				"so",
 			},
 		},
 		"DM": {
@@ -833,7 +849,8 @@ func init() {
 			DefaultLanguage:   "ar",
 			Languages: []string{
 				"ar",
-				"it",
+				"en",
+				"ti",
 			},
 		},
 		"EE": {
@@ -856,6 +873,7 @@ func init() {
 			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
+				"ss",
 			},
 		},
 		"ET": {
@@ -900,6 +918,9 @@ func init() {
 			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
+				"fj",
+				"hi",
+				"ur",
 			},
 		},
 		"FI": {
@@ -1011,6 +1032,7 @@ func init() {
 			DefaultLanguage:   "ak",
 			Languages: []string{
 				"ak",
+				"ee",
 				"en",
 			},
 		},
@@ -1144,6 +1166,7 @@ func init() {
 			DefaultLanguage:   "fr",
 			Languages: []string{
 				"fr",
+				"ht",
 			},
 		},
 		"HM": {
@@ -1166,6 +1189,7 @@ func init() {
 			DefaultLanguage:   "it",
 			Languages: []string{
 				"it",
+				"la",
 			},
 		},
 		"HN": {
@@ -1223,6 +1247,11 @@ func init() {
 			Languages: []string{
 				"bn",
 				"en",
+				"gu",
+				"hi",
+				"pa",
+				"ta",
+				"te",
 			},
 		},
 		"ID": {
@@ -1234,6 +1263,7 @@ func init() {
 			DefaultLanguage:   "id",
 			Languages: []string{
 				"id",
+				"ms",
 			},
 		},
 		"IR": {
@@ -1256,6 +1286,7 @@ func init() {
 			DefaultLanguage:   "ar",
 			Languages: []string{
 				"ar",
+				"ku",
 			},
 		},
 		"IE": {
@@ -1267,6 +1298,7 @@ func init() {
 			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
+				"ga",
 			},
 		},
 		"IM": {
@@ -1289,7 +1321,7 @@ func init() {
 			DefaultLanguage:   "ar",
 			Languages: []string{
 				"ar",
-				"el",
+				"he",
 			},
 		},
 		"IT": {
@@ -1300,6 +1332,8 @@ func init() {
 			DefaultCurrency:   "EUR",
 			DefaultLanguage:   "it",
 			Languages: []string{
+				"de",
+				"fr",
 				"it",
 			},
 		},
@@ -1334,7 +1368,6 @@ func init() {
 			DefaultLanguage:   "fr",
 			Languages: []string{
 				"fr",
-				"en",
 			},
 		},
 		"JO": {
@@ -1369,6 +1402,7 @@ func init() {
 			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
+				"sw",
 			},
 		},
 		"KI": {
@@ -1425,7 +1459,6 @@ func init() {
 			DefaultLanguage:   "lv",
 			Languages: []string{
 				"lv",
-				"lt",
 			},
 		},
 		"LB": {
@@ -1448,6 +1481,7 @@ func init() {
 			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
+				"st",
 			},
 		},
 		"LR": {
@@ -1504,6 +1538,7 @@ func init() {
 			Languages: []string{
 				"de",
 				"fr",
+				"lb",
 			},
 		},
 		"MO": {
@@ -1527,6 +1562,7 @@ func init() {
 			DefaultLanguage:   "fr",
 			Languages: []string{
 				"fr",
+				"mg",
 			},
 		},
 		"MW": {
@@ -1537,8 +1573,8 @@ func init() {
 			DefaultCurrency:   "MWK",
 			DefaultLanguage:   "ny",
 			Languages: []string{
-				"ny",
 				"en",
+				"ny",
 			},
 		},
 		"MY": {
@@ -1551,6 +1587,7 @@ func init() {
 			Languages: []string{
 				"en",
 				"ms",
+				"ta",
 			},
 		},
 		"MV": {
@@ -1573,6 +1610,7 @@ func init() {
 			DefaultLanguage:   "bm",
 			Languages: []string{
 				"bm",
+				"ff",
 				"fr",
 			},
 		},
@@ -1585,6 +1623,7 @@ func init() {
 			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
+				"mt",
 			},
 		},
 		"MH": {
@@ -1596,6 +1635,7 @@ func init() {
 			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
+				"mh",
 			},
 		},
 		"MQ": {
@@ -1618,7 +1658,6 @@ func init() {
 			DefaultLanguage:   "ar",
 			Languages: []string{
 				"ar",
-				"fr",
 			},
 		},
 		"MU": {
@@ -1631,6 +1670,7 @@ func init() {
 			Languages: []string{
 				"en",
 				"fr",
+				"ta",
 			},
 		},
 		"YT": {
@@ -1719,7 +1759,6 @@ func init() {
 			DefaultLanguage:   "ar",
 			Languages: []string{
 				"ar",
-				"fr",
 			},
 		},
 		"MZ": {
@@ -1774,7 +1813,7 @@ func init() {
 			DefaultCurrency:   "NPR",
 			DefaultLanguage:   "ne",
 			Languages: []string{
-				"en",
+				"ne",
 			},
 		},
 		"NL": {
@@ -1808,6 +1847,7 @@ func init() {
 			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
+				"mi",
 			},
 		},
 		"NI": {
@@ -1829,7 +1869,11 @@ func init() {
 			DefaultCurrency:   "XOF",
 			DefaultLanguage:   "ar",
 			Languages: []string{
+				"ar",
+				"ff",
 				"fr",
+				"ha",
+				"kr",
 			},
 		},
 		"NG": {
@@ -1840,7 +1884,10 @@ func init() {
 			DefaultCurrency:   "NGN",
 			DefaultLanguage:   "en",
 			Languages: []string{
-				"es",
+				"en",
+				"ha",
+				"ig",
+				"yo",
 			},
 		},
 		"NU": {
@@ -1884,6 +1931,8 @@ func init() {
 			DefaultCurrency:   "NOK",
 			DefaultLanguage:   "no",
 			Languages: []string{
+				"nb",
+				"nn",
 				"no",
 			},
 		},
@@ -1896,7 +1945,6 @@ func init() {
 			DefaultLanguage:   "ar",
 			Languages: []string{
 				"ar",
-				"en",
 			},
 		},
 		"PK": {
@@ -1908,6 +1956,7 @@ func init() {
 			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
+				"ur",
 			},
 		},
 		"PW": {
@@ -1941,6 +1990,7 @@ func init() {
 			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
+				"ho",
 			},
 		},
 		"PY": {
@@ -1951,8 +2001,8 @@ func init() {
 			DefaultCurrency:   "PYG",
 			DefaultLanguage:   "gn",
 			Languages: []string{
-				"gn",
 				"es",
+				"gn",
 			},
 		},
 		"PE": {
@@ -1965,6 +2015,7 @@ func init() {
 			Languages: []string{
 				"ay",
 				"es",
+				"qu",
 			},
 		},
 		"PH": {
@@ -1976,6 +2027,7 @@ func init() {
 			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
+				"tl",
 			},
 		},
 		"PN": {
@@ -2019,7 +2071,6 @@ func init() {
 			DefaultCurrency:   "USD",
 			DefaultLanguage:   "es",
 			Languages: []string{
-				"en",
 				"es",
 			},
 		},
@@ -2032,7 +2083,6 @@ func init() {
 			DefaultLanguage:   "ar",
 			Languages: []string{
 				"ar",
-				"en",
 			},
 		},
 		"KR": {
@@ -2089,7 +2139,7 @@ func init() {
 			Languages: []string{
 				"en",
 				"fr",
-				"sw",
+				"rw",
 			},
 		},
 		"RE": {
@@ -2232,7 +2282,9 @@ func init() {
 			DefaultCurrency:   "XOF",
 			DefaultLanguage:   "fr",
 			Languages: []string{
+				"ff",
 				"fr",
+				"wo",
 			},
 		},
 		"RS": {
@@ -2277,8 +2329,10 @@ func init() {
 			DefaultCurrency:   "SGD",
 			DefaultLanguage:   "zh",
 			Languages: []string{
-				"zh",
 				"en",
+				"ms",
+				"ta",
+				"zh",
 			},
 		},
 		"SX": {
@@ -2299,7 +2353,7 @@ func init() {
 			ISO3166_2:         "SK",
 			ISO3166_3:         "SVK",
 			DefaultCurrency:   "EUR",
-			DefaultLanguage:   "sk",
+			DefaultLanguage:   "cs",
 			Languages: []string{
 				"cs",
 				"sk",
@@ -2311,7 +2365,7 @@ func init() {
 			ISO3166_2:         "SI",
 			ISO3166_3:         "SVN",
 			DefaultCurrency:   "EUR",
-			DefaultLanguage:   "sl",
+			DefaultLanguage:   "it",
 			Languages: []string{
 				"it",
 				"sl",
@@ -2337,6 +2391,7 @@ func init() {
 			DefaultLanguage:   "ar",
 			Languages: []string{
 				"ar",
+				"so",
 			},
 		},
 		"ZA": {
@@ -2349,6 +2404,15 @@ func init() {
 			Languages: []string{
 				"af",
 				"en",
+				"nd",
+				"nr",
+				"ss",
+				"st",
+				"tn",
+				"ts",
+				"ve",
+				"xh",
+				"zu",
 			},
 		},
 		"GS": {
@@ -2382,7 +2446,6 @@ func init() {
 			DefaultLanguage:   "es",
 			Languages: []string{
 				"es",
-				"ca",
 			},
 		},
 		"LK": {
@@ -2465,6 +2528,7 @@ func init() {
 				"de",
 				"fr",
 				"it",
+				"rm",
 			},
 		},
 		"SY": {
@@ -2497,7 +2561,9 @@ func init() {
 			DefaultCurrency:   "EUR",
 			DefaultLanguage:   "fa",
 			Languages: []string{
+				"fa",
 				"ru",
+				"tg",
 			},
 		},
 		"TH": {
@@ -2520,7 +2586,6 @@ func init() {
 			DefaultLanguage:   "mk",
 			Languages: []string{
 				"mk",
-				"sq",
 			},
 		},
 		"TL": {
@@ -2531,8 +2596,6 @@ func init() {
 			DefaultCurrency:   "USD",
 			DefaultLanguage:   "pt",
 			Languages: []string{
-				"en",
-				"id",
 				"pt",
 			},
 		},
@@ -2544,6 +2607,7 @@ func init() {
 			DefaultCurrency:   "XOF",
 			DefaultLanguage:   "ee",
 			Languages: []string{
+				"ee",
 				"fr",
 			},
 		},
@@ -2589,7 +2653,6 @@ func init() {
 			DefaultLanguage:   "ar",
 			Languages: []string{
 				"ar",
-				"fr",
 			},
 		},
 		"TR": {
@@ -2612,7 +2675,6 @@ func init() {
 			DefaultLanguage:   "tk",
 			Languages: []string{
 				"tk",
-				"ru",
 			},
 		},
 		"TC": {
@@ -2669,7 +2731,6 @@ func init() {
 			DefaultLanguage:   "ar",
 			Languages: []string{
 				"ar",
-				"en",
 			},
 		},
 		"GB": {
@@ -2680,8 +2741,8 @@ func init() {
 			DefaultCurrency:   "GBP",
 			DefaultLanguage:   "en",
 			Languages: []string{
+				"cy",
 				"en",
-				"en-GB",
 			},
 		},
 		"TZ": {
@@ -2716,7 +2777,6 @@ func init() {
 			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
-				"en-US",
 			},
 		},
 		"VI": {
@@ -2761,8 +2821,8 @@ func init() {
 			DefaultLanguage:   "bi",
 			Languages: []string{
 				"bi",
-				"fr",
 				"en",
+				"fr",
 			},
 		},
 		"VE": {
@@ -2807,7 +2867,6 @@ func init() {
 			DefaultLanguage:   "es",
 			Languages: []string{
 				"es",
-				"ar",
 			},
 		},
 		"YE": {
@@ -2841,6 +2900,8 @@ func init() {
 			DefaultLanguage:   "en",
 			Languages: []string{
 				"en",
+				"nd",
+				"sn",
 			},
 		},
 		"AX": {
@@ -2851,7 +2912,6 @@ func init() {
 			DefaultCurrency:   "EUR",
 			DefaultLanguage:   "sv",
 			Languages: []string{
-				"fi",
 				"sv",
 			},
 		},
