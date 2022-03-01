@@ -84,10 +84,8 @@ func init() {
 			ISO3166_2:         "AS",
 			ISO3166_3:         "ASM",
 			DefaultCurrency:   "USD",
-			DefaultLanguage:   "en",
-			Languages: []string{
-				"en",
-			},
+			DefaultLanguage:   "",
+			Languages:         []string{},
 		},
 		"AD": {
 			Name:              "Andorra",
@@ -119,10 +117,8 @@ func init() {
 			ISO3166_2:         "AI",
 			ISO3166_3:         "AIA",
 			DefaultCurrency:   "XCD",
-			DefaultLanguage:   "en",
-			Languages: []string{
-				"en",
-			},
+			DefaultLanguage:   "",
+			Languages:         []string{},
 		},
 		"AQ": {
 			Name:              "Antarctica",
@@ -130,10 +126,8 @@ func init() {
 			ISO3166_2:         "AQ",
 			ISO3166_3:         "ATA",
 			DefaultCurrency:   "USD",
-			DefaultLanguage:   "en",
-			Languages: []string{
-				"en",
-			},
+			DefaultLanguage:   "",
+			Languages:         []string{},
 		},
 		"AG": {
 			Name:              "Antigua and Barbuda",
@@ -311,10 +305,8 @@ func init() {
 			ISO3166_2:         "BM",
 			ISO3166_3:         "BMU",
 			DefaultCurrency:   "BMD",
-			DefaultLanguage:   "en",
-			Languages: []string{
-				"en",
-			},
+			DefaultLanguage:   "",
+			Languages:         []string{},
 		},
 		"BT": {
 			Name:              "Bhutan",
@@ -347,11 +339,8 @@ func init() {
 			ISO3166_2:         "BQ",
 			ISO3166_3:         "BES",
 			DefaultCurrency:   "USD",
-			DefaultLanguage:   "nl",
-			Languages: []string{
-				"nl",
-				"en",
-			},
+			DefaultLanguage:   "",
+			Languages:         []string{},
 		},
 		"BA": {
 			Name:              "Bosnia and Herzegovina",
@@ -384,10 +373,8 @@ func init() {
 			ISO3166_2:         "BV",
 			ISO3166_3:         "BVT",
 			DefaultCurrency:   "NOK",
-			DefaultLanguage:   "no",
-			Languages: []string{
-				"no",
-			},
+			DefaultLanguage:   "",
+			Languages:         []string{},
 		},
 		"BR": {
 			Name:              "Brazil",
@@ -406,10 +393,8 @@ func init() {
 			ISO3166_2:         "IO",
 			ISO3166_3:         "IOT",
 			DefaultCurrency:   "USD",
-			DefaultLanguage:   "en",
-			Languages: []string{
-				"en",
-			},
+			DefaultLanguage:   "",
+			Languages:         []string{},
 		},
 		"VG": {
 			Name:              "British Virgin Islands",
@@ -417,10 +402,8 @@ func init() {
 			ISO3166_2:         "VG",
 			ISO3166_3:         "VGB",
 			DefaultCurrency:   "USD",
-			DefaultLanguage:   "en",
-			Languages: []string{
-				"en",
-			},
+			DefaultLanguage:   "",
+			Languages:         []string{},
 		},
 		"BN": {
 			Name:              "Brunei Darussalam",
@@ -520,10 +503,8 @@ func init() {
 			ISO3166_2:         "KY",
 			ISO3166_3:         "CYM",
 			DefaultCurrency:   "KYD",
-			DefaultLanguage:   "en",
-			Languages: []string{
-				"en",
-			},
+			DefaultLanguage:   "",
+			Languages:         []string{},
 		},
 		"CF": {
 			Name:              "Central African Republic",
@@ -577,10 +558,8 @@ func init() {
 			ISO3166_2:         "CX",
 			ISO3166_3:         "CXR",
 			DefaultCurrency:   "AUD",
-			DefaultLanguage:   "en",
-			Languages: []string{
-				"en",
-			},
+			DefaultLanguage:   "",
+			Languages:         []string{},
 		},
 		"CC": {
 			Name:              "Cocos (Keeling) Islands",
@@ -588,10 +567,8 @@ func init() {
 			ISO3166_2:         "CC",
 			ISO3166_3:         "CCK",
 			DefaultCurrency:   "AUD",
-			DefaultLanguage:   "en",
-			Languages: []string{
-				"en",
-			},
+			DefaultLanguage:   "",
+			Languages:         []string{},
 		},
 		"CO": {
 			Name:              "Colombia",
@@ -635,10 +612,8 @@ func init() {
 			ISO3166_2:         "CK",
 			ISO3166_3:         "COK",
 			DefaultCurrency:   "NZD",
-			DefaultLanguage:   "en",
-			Languages: []string{
-				"en",
-			},
+			DefaultLanguage:   "",
+			Languages:         []string{},
 		},
 		"CR": {
 			Name:              "Costa Rica",
@@ -893,10 +868,8 @@ func init() {
 			ISO3166_2:         "FK",
 			ISO3166_3:         "FLK",
 			DefaultCurrency:   "FKP",
-			DefaultLanguage:   "en",
-			Languages: []string{
-				"en",
-			},
+			DefaultLanguage:   "",
+			Languages:         []string{},
 		},
 		"FO": {
 			Name:              "Faroe Islands",
@@ -974,10 +947,8 @@ func init() {
 			ISO3166_2:         "TF",
 			ISO3166_3:         "ATF",
 			DefaultCurrency:   "EUR",
-			DefaultLanguage:   "fr",
-			Languages: []string{
-				"fr",
-			},
+			DefaultLanguage:   "",
+			Languages:         []string{},
 		},
 		"GA": {
 			Name:              "Gabon",
@@ -1042,10 +1013,8 @@ func init() {
 			ISO3166_2:         "GI",
 			ISO3166_3:         "GIB",
 			DefaultCurrency:   "GIP",
-			DefaultLanguage:   "en",
-			Languages: []string{
-				"en",
-			},
+			DefaultLanguage:   "",
+			Languages:         []string{},
 		},
 		"GR": {
 			Name:              "Greece",
@@ -1064,10 +1033,8 @@ func init() {
 			ISO3166_2:         "GL",
 			ISO3166_3:         "GRL",
 			DefaultCurrency:   "DKK",
-			DefaultLanguage:   "da",
-			Languages: []string{
-				"da",
-			},
+			DefaultLanguage:   "",
+			Languages:         []string{},
 		},
 		"GD": {
 			Name:              "Grenada",
@@ -1097,10 +1064,8 @@ func init() {
 			ISO3166_2:         "GU",
 			ISO3166_3:         "GUM",
 			DefaultCurrency:   "USD",
-			DefaultLanguage:   "en",
-			Languages: []string{
-				"en",
-			},
+			DefaultLanguage:   "",
+			Languages:         []string{},
 		},
 		"GT": {
 			Name:              "Guatemala",
@@ -1119,10 +1084,8 @@ func init() {
 			ISO3166_2:         "GG",
 			ISO3166_3:         "GGY",
 			DefaultCurrency:   "GBP",
-			DefaultLanguage:   "en",
-			Languages: []string{
-				"en",
-			},
+			DefaultLanguage:   "",
+			Languages:         []string{},
 		},
 		"GN": {
 			Name:              "Guinea",
@@ -1175,10 +1138,8 @@ func init() {
 			ISO3166_2:         "HM",
 			ISO3166_3:         "HMD",
 			DefaultCurrency:   "AUD",
-			DefaultLanguage:   "en",
-			Languages: []string{
-				"en",
-			},
+			DefaultLanguage:   "",
+			Languages:         []string{},
 		},
 		"VA": {
 			Name:              "Holy See",
@@ -1307,10 +1268,8 @@ func init() {
 			ISO3166_2:         "IM",
 			ISO3166_3:         "IMN",
 			DefaultCurrency:   "GBP",
-			DefaultLanguage:   "en",
-			Languages: []string{
-				"en",
-			},
+			DefaultLanguage:   "",
+			Languages:         []string{},
 		},
 		"IL": {
 			Name:              "Israel",
@@ -1734,10 +1693,8 @@ func init() {
 			ISO3166_2:         "ME",
 			ISO3166_3:         "MNE",
 			DefaultCurrency:   "EUR",
-			DefaultLanguage:   "sr",
-			Languages: []string{
-				"sr",
-			},
+			DefaultLanguage:   "",
+			Languages:         []string{},
 		},
 		"MS": {
 			Name:              "Montserrat",
@@ -1745,10 +1702,8 @@ func init() {
 			ISO3166_2:         "MS",
 			ISO3166_3:         "MSR",
 			DefaultCurrency:   "XCD",
-			DefaultLanguage:   "en",
-			Languages: []string{
-				"en",
-			},
+			DefaultLanguage:   "",
+			Languages:         []string{},
 		},
 		"MA": {
 			Name:              "Morocco",
@@ -1896,10 +1851,8 @@ func init() {
 			ISO3166_2:         "NU",
 			ISO3166_3:         "NIU",
 			DefaultCurrency:   "NZD",
-			DefaultLanguage:   "en",
-			Languages: []string{
-				"en",
-			},
+			DefaultLanguage:   "",
+			Languages:         []string{},
 		},
 		"NF": {
 			Name:              "Norfolk Island",
@@ -1907,10 +1860,8 @@ func init() {
 			ISO3166_2:         "NF",
 			ISO3166_3:         "NFK",
 			DefaultCurrency:   "AUD",
-			DefaultLanguage:   "en",
-			Languages: []string{
-				"en",
-			},
+			DefaultLanguage:   "",
+			Languages:         []string{},
 		},
 		"MP": {
 			Name:              "Northern Mariana Islands",
@@ -1918,10 +1869,8 @@ func init() {
 			ISO3166_2:         "MP",
 			ISO3166_3:         "MNP",
 			DefaultCurrency:   "USD",
-			DefaultLanguage:   "en",
-			Languages: []string{
-				"en",
-			},
+			DefaultLanguage:   "",
+			Languages:         []string{},
 		},
 		"NO": {
 			Name:              "Norway",
@@ -2036,10 +1985,8 @@ func init() {
 			ISO3166_2:         "PN",
 			ISO3166_3:         "PCN",
 			DefaultCurrency:   "NZD",
-			DefaultLanguage:   "en",
-			Languages: []string{
-				"en",
-			},
+			DefaultLanguage:   "",
+			Languages:         []string{},
 		},
 		"PL": {
 			Name:              "Poland",
@@ -2170,10 +2117,8 @@ func init() {
 			ISO3166_2:         "SH",
 			ISO3166_3:         "SHN",
 			DefaultCurrency:   "SHP",
-			DefaultLanguage:   "en",
-			Languages: []string{
-				"en",
-			},
+			DefaultLanguage:   "",
+			Languages:         []string{},
 		},
 		"KN": {
 			Name:              "Saint Kitts and Nevis",
@@ -2203,10 +2148,8 @@ func init() {
 			ISO3166_2:         "MF",
 			ISO3166_3:         "MAF",
 			DefaultCurrency:   "EUR",
-			DefaultLanguage:   "fr",
-			Languages: []string{
-				"fr",
-			},
+			DefaultLanguage:   "",
+			Languages:         []string{},
 		},
 		"PM": {
 			Name:              "Saint Pierre and Miquelon",
@@ -2421,10 +2364,8 @@ func init() {
 			ISO3166_2:         "GS",
 			ISO3166_3:         "SGS",
 			DefaultCurrency:   "GBP",
-			DefaultLanguage:   "en",
-			Languages: []string{
-				"en",
-			},
+			DefaultLanguage:   "",
+			Languages:         []string{},
 		},
 		"SS": {
 			Name:              "South Sudan",
@@ -2467,10 +2408,8 @@ func init() {
 			ISO3166_2:         "PS",
 			ISO3166_3:         "PSE",
 			DefaultCurrency:   "JOD",
-			DefaultLanguage:   "ar",
-			Languages: []string{
-				"ar",
-			},
+			DefaultLanguage:   "",
+			Languages:         []string{},
 		},
 		"SD": {
 			Name:              "Sudan",
@@ -2501,10 +2440,8 @@ func init() {
 			ISO3166_2:         "SJ",
 			ISO3166_3:         "SJM",
 			DefaultCurrency:   "NOK",
-			DefaultLanguage:   "no",
-			Languages: []string{
-				"no",
-			},
+			DefaultLanguage:   "",
+			Languages:         []string{},
 		},
 		"SE": {
 			Name:              "Sweden",
@@ -2617,10 +2554,8 @@ func init() {
 			ISO3166_2:         "TK",
 			ISO3166_3:         "TKL",
 			DefaultCurrency:   "NZD",
-			DefaultLanguage:   "en",
-			Languages: []string{
-				"en",
-			},
+			DefaultLanguage:   "",
+			Languages:         []string{},
 		},
 		"TO": {
 			Name:              "Tonga",
@@ -2683,10 +2618,8 @@ func init() {
 			ISO3166_2:         "TC",
 			ISO3166_3:         "TCA",
 			DefaultCurrency:   "USD",
-			DefaultLanguage:   "en",
-			Languages: []string{
-				"en",
-			},
+			DefaultLanguage:   "",
+			Languages:         []string{},
 		},
 		"TV": {
 			Name:              "Tuvalu",
@@ -2763,10 +2696,8 @@ func init() {
 			ISO3166_2:         "UM",
 			ISO3166_3:         "UMI",
 			DefaultCurrency:   "USD",
-			DefaultLanguage:   "en",
-			Languages: []string{
-				"en",
-			},
+			DefaultLanguage:   "",
+			Languages:         []string{},
 		},
 		"US": {
 			Name:              "United States of America",
@@ -2785,10 +2716,8 @@ func init() {
 			ISO3166_2:         "VI",
 			ISO3166_3:         "VIR",
 			DefaultCurrency:   "USD",
-			DefaultLanguage:   "en",
-			Languages: []string{
-				"en",
-			},
+			DefaultLanguage:   "",
+			Languages:         []string{},
 		},
 		"UY": {
 			Name:              "Uruguay",

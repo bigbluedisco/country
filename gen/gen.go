@@ -34,16 +34,6 @@ var countryTemplate = template.Must(template.New("").Parse(`
 		},`))
 
 func main() {
-	lt, err := ioutil.ReadFile("./lang.json")
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	var langs map[string][]string
-	if err := json.Unmarshal(lt, &langs); err != nil {
-		log.Fatal(err)
-	}
-
 	bt, err := ioutil.ReadFile("./countries.json")
 	if err != nil {
 		log.Fatal(err)
@@ -56,15 +46,6 @@ func main() {
 
 	var b strings.Builder
 	for _, c := range countries {
-
-		// Fill up languages from the other source if the primary source did not privide any.
-		if len(c.Languages) == 0 {
-			if lgs, ok := langs[c.ISO3166_2]; ok {
-				c.DefaultLanguage = lgs[0]
-				c.Languages = lgs
-			}
-		}
-
 		if err := countryTemplate.Execute(&b, c); err != nil {
 			log.Fatal(c, err)
 		}
