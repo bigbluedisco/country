@@ -28,7 +28,7 @@ var euMembers = map[string]struct{}{
 	"SE": {}, "SI": {}, "SK": {},
 
 	// ISO3
-	"AUT": {}, "BEL": {}, "BGR": {}, "CYM": {},
+	"AUT": {}, "BEL": {}, "BGR": {}, "CYP": {},
 	"CZE": {}, "DEU": {}, "DNK": {}, "EST": {},
 	"ESP": {}, "FIN": {}, "FRA": {}, "GRC": {},
 	"HRV": {}, "HUN": {}, "IRL": {}, "ITA": {},
@@ -43,7 +43,6 @@ func init() {
 	byISO3 = make(map[string]Info)
 
 	byISO2 = map[string]Info{
-
 		"AF": {
 			Name:              "Afghanistan",
 			ISO3166_1_numeric: 4,
